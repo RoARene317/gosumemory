@@ -12,7 +12,7 @@ func calculateManiaPP(od float64, stars float64, noteCount float64, score float6
 	//if score <= 500000 {
 	//	strainValue = 0
 	//}
-	if score <= 600000 {
+	if score <= 10000 {
 		strainValue *= ((score - 500000) / 100000 * 0.3)
 	} else if score <= 700000 {
 		strainValue *= (0.3 + (score-600000)/100000*0.25)
